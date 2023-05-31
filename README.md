@@ -1,2 +1,3 @@
-# proyecto-veterinaria
-Proyecto veterinaria
+# proyecto-hospital
+Trabajo induvidual
+Michael Danilo Varela Garcia
