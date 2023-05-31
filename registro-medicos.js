@@ -3,7 +3,6 @@ const nombre = document.getElementById("nombre")
 const apellido = document.getElementById("apellido")
 const cedula = document.getElementById("cedula")
 const numeroConsultorio = document.getElementById("consultorio")
-const telefono = document.getElementById("telefono")
 const correo = document.getElementById("correo")
 const especialidad = document.getElementById("especialidad")
 const formularioRegistro = document.getElementById("registro-medicos-form")
@@ -16,7 +15,6 @@ formularioRegistro.addEventListener("submit", function(event){
         apellido: apellido.value,
         cedula: cedula.value,
         consultorio: numeroConsultorio.value,
-        telefono: telefono.value,
         correo: correo.value,
         especialidad: especialidad.value
     }

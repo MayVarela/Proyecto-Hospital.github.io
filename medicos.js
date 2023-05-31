@@ -14,7 +14,6 @@ function mostrarMedicos() {
         let celdaEspecialidad = fila.insertCell()
         let celdaConsultorio = fila.insertCell()
         let celdaCorreo = fila.insertCell()
-        let celdaPacientes = fila.insertCell()
 
         celdaNombreMedico.textContent = medico.nombre
         celdaApellido.textContent = medico.apellido
@@ -22,7 +21,6 @@ function mostrarMedicos() {
         celdaEspecialidad.textContent = medico.especialidad
         celdaConsultorio.textContent = medico.consultorio
         celdaCorreo.textContent = medico.correo
-        celdaPacientes.textContent = "Sin asignar"
     });
 }
 
